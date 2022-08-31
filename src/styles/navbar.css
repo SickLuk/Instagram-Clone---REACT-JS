@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.containerNavbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  border-bottom: 0.1rem #d0d0d0 solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  top: 0;
+}
+
+.containerNavbar .navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.containerNavbar .navbar .iconLink ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerNavbar .navbar .iconLink ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 22px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.containerNavbar .navbar .searchBar input {
+  border: none;
+  height: 30px;
+  background-color: #EFEFEF;
+  width: 270px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.containerNavbar .navbar .image-instagram {
+  margin-top: 10px;
+}
+
+.containerNavbar .navbar .image-instagram img {
+  width: 100px;
+  height: 30px;
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    margin: 0 0;
+  }
+  .searchBar {
+    display: none;
+  }
+  .iconLink li {
+    padding: 5px;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+/*# sourceMappingURL=navbar.css.map */

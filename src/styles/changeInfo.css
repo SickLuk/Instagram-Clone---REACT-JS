@@ -1,0 +1,74 @@
+.changeInfo {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 150px;
+  height: 100%;
+  border: 2px #cfcfcf solid;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.changeInfo p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.changeInfo .line-bar {
+  border-bottom: 2px #cfcfcf solid;
+}
+
+.changeInfo .form_changeInfo {
+  margin-top: 30px;
+}
+
+.changeInfo .form_changeInfo form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.changeInfo .form_changeInfo form input {
+  width: 20% !important;
+}
+
+.changeInfo .form_changeInfo form label {
+  font-weight: bold;
+}
+
+.changeInfo .form_changeInfo form #photoProfile, .changeInfo .form_changeInfo form #description {
+  margin-top: 15px;
+}
+
+.changeInfo .form_changeInfo .coverPhoto img {
+  margin-top: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Small screen devices (600px and above) */
+/* Medium screen devices (768px and above) */
+@media only screen and (max-width: 1000px) {
+  .changeInfo {
+    margin: 0 0;
+    margin-top: 90px;
+    width: 100%;
+  }
+  .form_changeInfo {
+    margin-top: 30px;
+  }
+  .form_changeInfo form input {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=changeInfo.css.map */

@@ -1,0 +1,49 @@
+.footer {
+  color: grey;
+  height: 100%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 60%;
+  margin-top: 100px;
+
+  .firstFooter {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .secondFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    min-width: 30%;
+    margin: 0 auto;
+  }
+
+  .thirdFooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  p{
+    cursor: pointer;
+    margin: 5px;
+  }
+
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (max-width: 768px) {
+  .footer{
+    .firstFooter{
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}

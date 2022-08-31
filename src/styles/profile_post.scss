@@ -1,0 +1,26 @@
+.post{
+  img{
+    height: 270px;
+    width: 270px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .post{
+    img{
+      height: 100px;
+      width: 100px;
+    }
+  }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .post{
+      img{
+        height: 150px;
+        width: 150px;
+      }
+    }
+    }

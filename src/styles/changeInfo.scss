@@ -1,0 +1,71 @@
+@import 'color_base.scss';
+.changeInfo{
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 150px;
+  height: 100%;
+  border: 2px $color-grey-light solid;
+  border-radius: 20px;
+  background-color: white;
+  p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .line-bar{
+    border-bottom: 2px $color-grey-light solid;
+  }
+  .form_changeInfo{
+    margin-top: 30px;
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      input{
+        width: 20% !important; 
+      }
+
+      label{
+        font-weight: bold;
+      }
+      #photoProfile, #description{
+        margin-top: 15px;
+      }
+    }
+
+    .coverPhoto{
+      img{
+        margin-top: 5px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 750px) {
+
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (max-width: 1000px) {
+.changeInfo{
+  margin: 0 0;
+  margin-top: 90px;
+  width: 100%;
+}
+
+.form_changeInfo{
+  margin-top: 30px;
+  form{
+    input{
+      width: 100% !important; 
+    }
+  }
+}
+}

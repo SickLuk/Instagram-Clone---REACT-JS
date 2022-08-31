@@ -1,0 +1,186 @@
+@import "color_base.scss";
+.post_instagram {
+  margin-top: 20px;
+  border: 0.2px $color-grey-light solid;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  width: 100%;
+  .title_post {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .title_name_post {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .user_name_info{
+        display: flex;
+        flex-direction: column;
+
+        #place{
+          font-size: 13px;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+
+  .photo_post {
+    img{
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .post-bottom {
+    margin: 0 auto;
+    width: 95%;
+
+    .iteration_post {
+      margin-top: 5px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+
+      .left-iteration {
+        width: 30%;
+        ul {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          li {
+            list-style: none;
+            font-size: 23px;
+            margin-right: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+      .right-iteration {
+        font-size: 23px;
+        cursor: pointer;
+      }
+    }
+
+
+          // POST INSTAGRAM
+
+    .likes_post {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      p {
+        margin-left: 5px;
+        font-size: 14px;
+        word-spacing: 1px;
+      }
+    }
+
+    span {
+      font-weight: bolder;
+      margin-right: 3px;
+    }
+
+    .description_post {
+      margin-top: 5px;
+      display: flex;
+      font-size: 14px;
+    }
+
+    .showComments {
+      margin-top: 10px;
+      font-size: 14px;
+      p {
+        color: $color-grey-dark;
+        cursor: pointer;
+      }
+    }
+
+    .comments_post {
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .date_post {
+      margin-top: 10px;
+      p {
+        font-size: 10px;
+        color: $color-grey-dark;
+      }
+    }
+
+    .border-top {
+      border-top: 0.5px rgb(215, 215, 215) solid;
+      margin-top: 10px;
+    }
+
+    .comment_post {
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      input {
+        flex-grow: 1;
+        height: 25px;
+        border: none;
+        font-size: 15px;
+        outline:none;
+        &:active {
+          border: none;
+          outline: none;
+        }
+      }
+
+      .icon {
+        font-size: 25px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+
+      p:nth-child(3) {
+        color: $color-blue;
+        font-weight: bolder;
+        margin-left: 5px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+
+    ::-webkit-input-placeholder {
+      /* WebKit browsers (Safari, Google Chrome, Opera 15+) */
+      color: rgb(190, 190, 190);
+    }
+    :-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: rgb(190, 190, 190);
+
+      opacity: 1;
+    }
+    ::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: rgb(190, 190, 190);
+
+      opacity: 1;
+    }
+    :-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: rgb(190, 190, 190);
+    }
+  }
+}

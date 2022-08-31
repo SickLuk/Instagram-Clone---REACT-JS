@@ -1,0 +1,178 @@
+.containerHomeCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 45%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.containerHomeCenter .containerHome-left {
+  width: 100%;
+  position: relative;
+}
+
+.containerHomeCenter .containerHome-left .containerStories {
+  position: relative;
+  margin-top: 25px;
+  height: 110px;
+  width: 450px;
+  border: 0.2px #cfcfcf solid;
+  background-color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.containerHomeCenter .containerHome-right {
+  width: 100%;
+  position: relative;
+  margin-top: 25px;
+  width: 80%;
+  margin-left: 40px;
+}
+
+.containerHomeCenter .containerHome-right .profile_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerHomeCenter .containerHome-right .profile_user .profile-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerHomeCenter .containerHome-right .profile_user .profile-top .name_user {
+  margin-left: 15px;
+}
+
+.containerHomeCenter .containerHome-right .profile_user .profile-top .name_user p:nth-child(2) {
+  margin-top: 5px;
+  color: #5e5c5c;
+  font-size: 15px;
+}
+
+.containerHomeCenter .containerHome-right .profile_user p:nth-child(2), .containerHomeCenter .containerHome-right .profile_user a {
+  color: #0095f6;
+  font-weight: bolder;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.containerHomeCenter .containerHome-right .suggestion_user {
+  margin-top: 20px;
+}
+
+.containerHomeCenter .containerHome-right .suggestion_user .suggestion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+.containerHomeCenter .containerHome-right .suggestion_user .suggestion p:nth-child(1) {
+  color: #5e5c5c;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.containerHomeCenter .containerHome-right .suggestion_user .suggestion p:nth-child(2) {
+  font-size: 12px;
+  color: black;
+  font-weight: bolder;
+}
+
+.containerHomeCenter .containerHome-right .footer_right {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.containerHomeCenter .containerHome-right .footer_right .list-info {
+  color: #cfcfcf;
+}
+
+.containerHomeCenter .containerHome-right .footer_right .list-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.containerHomeCenter .containerHome-right .footer_right .list-info ul li {
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 10px;
+  list-style: none;
+}
+
+.containerHomeCenter .containerHome-right .footer_right p:last-child {
+  color: #cfcfcf;
+  font-size: 13px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 750px) {
+  .containerHomeCenter {
+    margin: 0 0;
+    margin-top: 40px;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (max-width: 1000px) {
+  .containerHome-right {
+    display: none;
+  }
+  .containerHome-left {
+    margin: 0 0;
+    width: 100% !important;
+  }
+  .containerStories {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,29 @@
+@import 'color_base.scss';
+
+*{
+  font-family: 'Helvetica', 'Arial';
+}
+
+.buttonBlue {
+  background-color: $color-blue;
+  min-width: 250px;
+  max-width: 100%;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  span img {
+    margin-right: 5px;
+    width: 30px;
+    height: 20px;
+  }
+}
+
+@import 'register';
+@import 'footer';
